@@ -1,14 +1,14 @@
-React.js Password
+React.js Password Component
 =================
 
-A React.js component for password inputs. At this moment it only allows you to show/hide
-a password field. In the future, it may include more like validation.
+A React.js component for password inputs.
+Currently it only allows you to show/hide a password field.
 
 
 Usage
 -----
 
-    npm i --save react-password
+    npm install --save https://github.com/marudhupandiyang/react-password/tarball/master
 
 See Examples here: <examples folder>
 
@@ -17,12 +17,9 @@ See Examples here: <examples folder>
 
 ```html
 <ReactPassword
-  revealed={ this.state.checked }
-  maxLength="25"
-  onChange={ this.handlePasswordChange }
-  id="secret-password"/>
+  reveal={ this.state.checked }
+  onChange={ this.handlePasswordChange }/>
 ```
-
 
 License
 -------
